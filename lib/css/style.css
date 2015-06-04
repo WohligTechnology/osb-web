@@ -2883,7 +2883,8 @@ footer .meta-social ul li a:hover {
 }
 
 footer .row-content.buffer {
-    padding-top: 2%;
+/*    padding-top: 2%;*/
+    padding-top: 1%;
     padding-bottom: 0;
 }
 
@@ -5209,4 +5210,7 @@ footer .row-content.buffer {
 }
 .btn-red{
     background-color: #ED1C24;
+}
+.ftr-btm p{
+    margin-bottom: 0.67em;
 }
