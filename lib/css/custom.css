@@ -1,3 +1,9 @@
 p.text-xs {
-  text-align: justify;
+    text-align: justify;
+}
+
+media="screen" textarea {
+    width: 60%;
+    max-width: 32em;
+    height: 4em;
 }
