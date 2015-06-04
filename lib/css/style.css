@@ -5207,3 +5207,6 @@ footer .row-content.buffer {
 .quote p{
     font-size: 16px;
 }
+.btn-red{
+    background-color: #ED1C24;
+}
