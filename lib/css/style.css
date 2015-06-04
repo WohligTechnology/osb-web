@@ -5198,3 +5198,9 @@ footer .row-content.buffer {
 .last p,.mission p,.last ul li{
     font-size: 14px;
 }
+.text-justify{
+    text-align: justify;
+}
+.address p{
+    font-size: 14px;
+}
