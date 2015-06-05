@@ -7,3 +7,13 @@ media="screen" textarea {
     max-width: 32em;
     height: 4em;
 }
+
+[class^="flaticon-"]:before,
+[class*="flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*="flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 35px;
+    font-style: normal;
+    margin-left: 5px;
+}
