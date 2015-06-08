@@ -1684,7 +1684,7 @@ section.greyish {
 
 .call-to-action .row-content.buffer {
     padding-top: 4%;
-    padding-bottom: 4%;
+    padding-bottom: 3%;
 }
 
 .call-to-action {
@@ -5543,5 +5543,40 @@ only screen and (max-width: 48em) {
     font-family: Flaticon;
     font-size: 35px!important;
     font-style: normal;
-    margin-left: 5px!important;
+    margin-left: 0px!important;
+}
+
+i.icon.downicon:before {
+    font-size: 110px!important;
+}
+
+.small-icon.small-icons {
+    line-height: 1.7 !important;
+}
+
+.row-content.buffer.even,
+.row-content.buffer-top.even {
+    padding-top: 3% !important;
+}
+
+.activemenu {
+    border-bottom: 2px solid #000;
+}
+
+.actives {
+    border-bottom: 2px solid #fff;
+}
+
+.owl-item {
+    border: 0;
+}
+
+.section-title h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row-content.buffer,
+.row-content.buffer-bottom {
+    padding-bottom: 3%;
 }
