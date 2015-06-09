@@ -373,7 +373,7 @@ header.transition {
 }
 
 header.transparent {
-    background-color: transparent;
+    background-color: #fff;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -456,7 +456,7 @@ only screen and (min-resolution: 144dpi) {
 
 header.transparent.light #brand a,
 header.transparent.light nav > ul > li > a {
-    color: #fff;
+    color: #000;
 }
 
 header.fixed-header.transparent.light #brand a,
@@ -632,7 +632,7 @@ nav ul.sub-menu > li:last-child > a {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 #intro .intro-mockup,
@@ -682,6 +682,13 @@ nav ul.sub-menu > li:last-child > a {
 .caption-mockup {
     width: 100%;
     text-align: center;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+    transform: translatex(-50%);
 }
 
 .caption,
@@ -1714,7 +1721,7 @@ section.greyish {
     -moz-border-radius: 25%;
     border-radius: 25%;
     background-color: rgba(0, 0, 0, 0.03);
-    line-height: 2;
+    line-height: 1.9;
 }
 
 .small-icon-text {
@@ -5564,7 +5571,7 @@ i.icon.downicon:before {
 }
 
 .actives {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #000;
 }
 
 .owl-item {
@@ -5579,4 +5586,25 @@ i.icon.downicon:before {
 .row-content.buffer,
 .row-content.buffer-bottom {
     padding-bottom: 3%;
+}
+
+.flaticon-scales1:before {
+    font-size: 95px!important;
+}
+
+header.fixed-header.transparent.light #brand a,
+header.fixed-header.transparent.light nav > ul > li > a.actives {
+    border-bottom: 2px solid #000;
+}
+
+i.icon.flaticon-bill7 {
+    background: url('../img/icon-logo.png')no-repeat;
+    width: 56px;
+    height: 50px;
+    background-position-x: 12px;
+    background-position-y: 7px;
+}
+
+main {
+    min-height: 550px;
 }
